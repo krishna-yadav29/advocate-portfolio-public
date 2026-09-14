@@ -1,8 +1,0 @@
-{
-  "counters": [
-    { "number": 500, "suffix": "+", "label": "Lorem Ipsum", "icon": "fas fa-trophy" },
-    { "number": 15, "suffix": "+", "label": "Lorem Ipsum", "icon": "fas fa-briefcase" },
-    { "number": 3, "suffix": "", "label": "Lorem Ipsum", "icon": "fas fa-landmark" },
-    { "number": 98, "suffix": "%", "label": "Lorem Ipsum", "icon": "fas fa-smile" }
-  ]
-}
