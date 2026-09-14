@@ -1,30 +1,29 @@
 {
-  "heading": "Professional Journey",
-  "milestones": [
+  "heading": "Achievements & Recognitions",
+  "achievements": [
     {
+      "icon": "fas fa-award",
+      "title": "Placeholder for Achievement 1 (e.g. Legal Excellence Award)",
       "year": "20XX",
-      "title": "Placeholder for Milestone 1 (e.g. Enrolled with Bar Council)",
-      "description": "Placeholder description for this career milestone. Replace with 1–2 sentences about what happened at this stage of the professional journey."
+      "description": "Placeholder description for this achievement. Replace with 1–2 sentences about the award, recognition or honour received."
     },
     {
+      "icon": "fas fa-star",
+      "title": "Placeholder for Achievement 2 (e.g. Bar Association Honour)",
       "year": "20XX",
-      "title": "Placeholder for Milestone 2 (e.g. Started Independent Practice)",
-      "description": "Placeholder description for this career milestone. Replace with 1–2 sentences about what happened at this stage of the professional journey."
+      "description": "Placeholder description for this achievement. Replace with 1–2 sentences about the award, recognition or honour received."
     },
     {
+      "icon": "fas fa-certificate",
+      "title": "Placeholder for Achievement 3 (e.g. Certified Mediator)",
       "year": "20XX",
-      "title": "Placeholder for Milestone 3 (e.g. Empanelled as Legal Advisor)",
-      "description": "Placeholder description for this career milestone. Replace with 1–2 sentences about what happened at this stage of the professional journey."
+      "description": "Placeholder description for this achievement. Replace with 1–2 sentences about the award, recognition or honour received."
     },
     {
+      "icon": "fas fa-medal",
+      "title": "Placeholder for Achievement 4 (e.g. Distinguished Service Medal)",
       "year": "20XX",
-      "title": "Placeholder for Milestone 4 (e.g. Argued Landmark Case)",
-      "description": "Placeholder description for this career milestone. Replace with 1–2 sentences about what happened at this stage of the professional journey."
-    },
-    {
-      "year": "20XX",
-      "title": "Placeholder for Milestone 5 (e.g. Established Own Chambers)",
-      "description": "Placeholder description for this career milestone. Replace with 1–2 sentences about what happened at this stage of the professional journey."
+      "description": "Placeholder description for this achievement. Replace with 1–2 sentences about the award, recognition or honour received."
     }
   ]
 }
