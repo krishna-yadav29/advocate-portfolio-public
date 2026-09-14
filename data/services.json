@@ -1,36 +1,36 @@
 {
-  "heading": "Lorem Ipsum",
-  "subtitle": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+  "heading": "Practice Areas",
+  "subtitle": "Placeholder for a one-line introduction to the legal services offered.",
   "services": [
     {
       "icon": "fas fa-gavel",
-      "title": "Lorem Ipsum Service",
-      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966, when designers at Letraset and James Mosley, the librarian at St Bride Printing Library in London, took a 1914 Cicero translation and scrambled it to make dummy text for Letraset's Body Type sheets."
+      "title": "Placeholder for Service 1 (e.g. Criminal Law)",
+      "description": "Placeholder description for this practice area. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Replace with 2–3 sentences describing the service, the types of matters handled, and how clients are assisted."
     },
     {
       "icon": "fas fa-home",
-      "title": "Lorem Ipsum Service",
-      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966, when designers at Letraset and James Mosley, the librarian at St Bride Printing Library in London, took a 1914 Cicero translation and scrambled it to make dummy text for Letraset's Body Type sheets."
+      "title": "Placeholder for Service 2 (e.g. Property Law)",
+      "description": "Placeholder description for this practice area. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Replace with 2–3 sentences describing the service, the types of matters handled, and how clients are assisted."
     },
     {
       "icon": "fas fa-users",
-      "title": "Lorem Ipsum Service",
-      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966, when designers at Letraset and James Mosley, the librarian at St Bride Printing Library in London, took a 1914 Cicero translation and scrambled it to make dummy text for Letraset's Body Type sheets."
+      "title": "Placeholder for Service 3 (e.g. Family Law)",
+      "description": "Placeholder description for this practice area. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Replace with 2–3 sentences describing the service, the types of matters handled, and how clients are assisted."
     },
     {
       "icon": "fas fa-file-contract",
-      "title": "Lorem Ipsum Service",
-      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966, when designers at Letraset and James Mosley, the librarian at St Bride Printing Library in London, took a 1914 Cicero translation and scrambled it to make dummy text for Letraset's Body Type sheets."
+      "title": "Placeholder for Service 4 (e.g. Legal Documentation)",
+      "description": "Placeholder description for this practice area. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Replace with 2–3 sentences describing the service, the types of matters handled, and how clients are assisted."
     },
     {
       "icon": "fas fa-building",
-      "title": "Lorem Ipsum Service",
-      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966, when designers at Letraset and James Mosley, the librarian at St Bride Printing Library in London, took a 1914 Cicero translation and scrambled it to make dummy text for Letraset's Body Type sheets."
+      "title": "Placeholder for Service 5 (e.g. Corporate Law)",
+      "description": "Placeholder description for this practice area. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Replace with 2–3 sentences describing the service, the types of matters handled, and how clients are assisted."
     },
     {
       "icon": "fas fa-landmark",
-      "title": "Lorem Ipsum Service",
-      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966, when designers at Letraset and James Mosley, the librarian at St Bride Printing Library in London, took a 1914 Cicero translation and scrambled it to make dummy text for Letraset's Body Type sheets."
+      "title": "Placeholder for Service 6 (e.g. Civil Litigation)",
+      "description": "Placeholder description for this practice area. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Replace with 2–3 sentences describing the service, the types of matters handled, and how clients are assisted."
     }
   ]
 }

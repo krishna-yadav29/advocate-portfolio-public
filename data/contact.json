@@ -1,10 +1,10 @@
 {
-  "heading": "Lorem Ipsum",
-  "subtitle": "Lorem Ipsum is simply dummy text",
-  "phone": "+XX XXXXX XXXXX",
-  "email": "lorem@ipsum.com",
-  "address": "Lorem Ipsum is simply dummy text of the printing and typesetting industry, Lorem Ipsum City - XXXXXX",
-  "office_hours": "Lorem - Ipsum: XX:XX AM - XX:XX PM",
+  "heading": "Contact Me",
+  "subtitle": "Placeholder for a one-line invitation to get in touch",
+  "phone": "Placeholder for Phone Number",
+  "email": "placeholder-for-email@example.com",
+  "address": "Placeholder for Office Address — chamber/office number, building, street, city and PIN code",
+  "office_hours": "Placeholder for Office Hours (e.g. Mon – Sat: 10:00 AM – 7:00 PM)",
   "map_embed_url": "https://www.google.com/maps/embed?pb=...",
   "form_fields": ["name", "phone", "email", "case_type", "message"]
 }

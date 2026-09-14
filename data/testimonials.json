@@ -1,24 +1,24 @@
 {
-  "heading": "Lorem Ipsum",
+  "heading": "What Clients Say",
   "testimonials": [
     {
-      "name": "Lorem Ipsum Client",
-      "role": "Lorem Ipsum",
-      "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966, when designers at Letraset and James Mosley, the librarian at St Bride Printing Library in London, took a 1914 Cicero translation and scrambled it to make dummy text for Letraset's Body Type sheets.",
+      "name": "Placeholder for Client Name 1",
+      "role": "Placeholder for Client Role (e.g. Business Owner)",
+      "text": "Placeholder for client testimonial 1. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Replace with a genuine client review of 2–4 sentences, used with the client's written consent.",
       "rating": 5,
       "image": "images/testimonials/client-1.jpg"
     },
     {
-      "name": "Lorem Ipsum Client",
-      "role": "Lorem Ipsum",
-      "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966, when designers at Letraset and James Mosley, the librarian at St Bride Printing Library in London, took a 1914 Cicero translation and scrambled it to make dummy text for Letraset's Body Type sheets.",
+      "name": "Placeholder for Client Name 2",
+      "role": "Placeholder for Client Role (e.g. Salaried Professional)",
+      "text": "Placeholder for client testimonial 2. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Replace with a genuine client review of 2–4 sentences, used with the client's written consent.",
       "rating": 5,
       "image": "images/testimonials/client-2.jpg"
     },
     {
-      "name": "Lorem Ipsum Client",
-      "role": "Lorem Ipsum",
-      "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966, when designers at Letraset and James Mosley, the librarian at St Bride Printing Library in London, took a 1914 Cicero translation and scrambled it to make dummy text for Letraset's Body Type sheets.",
+      "name": "Placeholder for Client Name 3",
+      "role": "Placeholder for Client Role (e.g. Property Owner)",
+      "text": "Placeholder for client testimonial 3. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Replace with a genuine client review of 2–4 sentences, used with the client's written consent.",
       "rating": 5,
       "image": "images/testimonials/client-3.jpg"
     }

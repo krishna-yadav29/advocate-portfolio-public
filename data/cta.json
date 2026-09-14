@@ -1,7 +1,7 @@
 {
-  "heading": "Lorem Ipsum is simply dummy text?",
-  "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966.",
-  "button_text": "Lorem Ipsum",
+  "heading": "Need Legal Assistance?",
+  "description": "Placeholder for a short call-to-action message inviting visitors to schedule a consultation or discuss their legal matter.",
+  "button_text": "Book a Consultation",
   "button_link": "#contact",
-  "phone_text": "Lorem Ipsum: +XX XXXXX XXXXX"
+  "phone_text": "Call Now: Placeholder for Phone Number"
 }

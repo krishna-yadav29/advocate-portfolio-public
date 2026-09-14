@@ -1,12 +1,12 @@
 {
   "type": "post",
-  "slug": "lorem-ipsum-blog-post-two",
-  "title": "Lorem Ipsum has been the Industry Standard Dummy Text",
+  "slug": "placeholder-blog-post-two",
+  "title": "Placeholder Title for Blog Post Two",
   "date": "20XX-XX-XX",
-  "category": "Lorem Ipsum",
+  "category": "General",
   "thumbnail": "images/blog/post-2.jpg",
-  "excerpt": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966...",
-  "content": "<h2>Lorem Ipsum</h2><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966, when designers at Letraset and James Mosley, the librarian at St Bride Printing Library in London, took a 1914 Cicero translation and scrambled it to make dummy text for Letraset's Body Type sheets.</p><h2>Lorem Ipsum Dolor</h2><p>It has survived not only many decades, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised thanks to these sheets and more recently with desktop publishing software like Aldus PageMaker and Microsoft Word including versions of Lorem Ipsum.</p>",
+  "excerpt": "Placeholder excerpt for blog post two — a short 1–2 sentence summary shown on the blog listing and homepage preview cards.",
+  "content": "<h2>Placeholder Section Heading</h2><p>Placeholder for the first section of the article. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966, when designers at Letraset and James Mosley, the librarian at St Bride Printing Library in London, took a 1914 Cicero translation and scrambled it to make dummy text for Letraset's Body Type sheets.</p><h2>Placeholder Second Heading</h2><p>Placeholder for the second section of the article. It has survived not only many decades, but also the leap into electronic typesetting, remaining essentially unchanged. Replace this content with a real legal insight article.</p>",
   "author": "Advocate Name Here",
   "read_time": "X min"
 }

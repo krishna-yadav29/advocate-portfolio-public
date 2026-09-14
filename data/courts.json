@@ -1,8 +1,8 @@
 {
-  "heading": "Lorem Ipsum",
+  "heading": "Courts of Practice",
   "courts": [
-    { "name": "Lorem Ipsum Court", "icon": "fas fa-landmark", "location": "Lorem Ipsum City" },
-    { "name": "Lorem Ipsum Court", "icon": "fas fa-university", "location": "Lorem Ipsum City" },
-    { "name": "Lorem Ipsum Court", "icon": "fas fa-balance-scale", "location": "Lorem Ipsum City" }
+    { "name": "Placeholder for Court Name 1 (e.g. High Court)", "icon": "fas fa-landmark", "location": "Placeholder for City" },
+    { "name": "Placeholder for Court Name 2 (e.g. District Court)", "icon": "fas fa-university", "location": "Placeholder for City" },
+    { "name": "Placeholder for Court Name 3 (e.g. Family Court)", "icon": "fas fa-balance-scale", "location": "Placeholder for City" }
   ]
 }

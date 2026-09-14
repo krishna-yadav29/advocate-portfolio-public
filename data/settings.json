@@ -1,16 +1,16 @@
 {
-  "site_title": "Advocate Name Here | Lorem Ipsum",
-  "site_description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+  "site_title": "Advocate Name Here | Placeholder for Professional Title",
+  "site_description": "Placeholder for site description — one or two sentences about the advocate and the legal services offered (used in search results).",
   "whatsapp_number": "XXXXXXXXXX",
-  "whatsapp_message": "Lorem Ipsum is simply dummy text...",
+  "whatsapp_message": "Placeholder for the pre-filled WhatsApp message (e.g. Hello, I would like to consult regarding a legal matter.)",
   "social": {
-    "facebook": "https://facebook.com/loremipsum",
-    "linkedin": "https://linkedin.com/in/loremipsum",
-    "twitter": "https://twitter.com/loremipsum",
+    "facebook": "https://facebook.com/placeholder-profile",
+    "linkedin": "https://linkedin.com/in/placeholder-profile",
+    "twitter": "https://twitter.com/placeholder-profile",
     "instagram": ""
   },
-  "disclaimer_text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966, when designers at Letraset and James Mosley, the librarian at St Bride Printing Library in London, took a 1914 Cicero translation and scrambled it to make dummy text for Letraset's Body Type sheets. It has survived not only many decades, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised thanks to these sheets and more recently with desktop publishing software like Aldus PageMaker and Microsoft Word including versions of Lorem Ipsum",
+  "disclaimer_text": "Placeholder for the website disclaimer. As per the rules of the Bar Council of India, advocates are not permitted to solicit work or advertise. By clicking 'I Understand', you acknowledge that you are seeking information about the Advocate voluntarily, that no solicitation or advertisement has been made, and that the content of this website is for informational purposes only and shall not be construed as legal advice. Replace this text with a disclaimer approved by the advocate.",
   "enquiry_popup_enabled": true,
   "enquiry_popup_delay_seconds": 15,
-  "copyright_text": "© 20XX Advocate Name Here. Lorem Ipsum."
+  "copyright_text": "© 20XX Advocate Name Here. All rights reserved."
 }

@@ -1,29 +1,25 @@
 {
-  "heading": "Lorem Ipsum",
+  "heading": "Frequently Asked Questions",
   "faqs": [
     {
-      "question": "Adding new FAQ",
-      "answer": "Just FAQ for testing purpose\n"
+      "question": "Placeholder for Question 1 (e.g. How do I book a consultation?)",
+      "answer": "Placeholder for the answer to question 1. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Replace with a clear, helpful answer of 2–4 sentences that a prospective client would find useful."
     },
     {
-      "question": "Lorem ipsum dolor sit amet, consectetur adipiscing elit?",
-      "answer": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966, when designers at Letraset and James Mosley, the librarian at St Bride Printing Library in London, took a 1914 Cicero translation and scrambled it to make dummy text for Letraset's Body Type sheets. It has survived not only many decades, but also the leap into electronic typesetting, remaining essentially unchanged."
+      "question": "Placeholder for Question 2 (e.g. What documents should I bring for the first meeting?)",
+      "answer": "Placeholder for the answer to question 2. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Replace with a clear, helpful answer of 2–4 sentences that a prospective client would find useful."
     },
     {
-      "question": "Lorem ipsum dolor sit amet, consectetur adipiscing elit?",
-      "answer": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966, when designers at Letraset and James Mosley, the librarian at St Bride Printing Library in London, took a 1914 Cicero translation and scrambled it to make dummy text for Letraset's Body Type sheets. It has survived not only many decades, but also the leap into electronic typesetting, remaining essentially unchanged."
+      "question": "Placeholder for Question 3 (e.g. How are consultation fees structured?)",
+      "answer": "Placeholder for the answer to question 3. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Replace with a clear, helpful answer of 2–4 sentences that a prospective client would find useful."
     },
     {
-      "question": "Lorem ipsum dolor sit amet, consectetur adipiscing elit?",
-      "answer": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966, when designers at Letraset and James Mosley, the librarian at St Bride Printing Library in London, took a 1914 Cicero translation and scrambled it to make dummy text for Letraset's Body Type sheets. It has survived not only many decades, but also the leap into electronic typesetting, remaining essentially unchanged."
+      "question": "Placeholder for Question 4 (e.g. How long will my case take?)",
+      "answer": "Placeholder for the answer to question 4. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Replace with a clear, helpful answer of 2–4 sentences that a prospective client would find useful."
     },
     {
-      "question": "Lorem ipsum dolor sit amet, consectetur adipiscing elit?",
-      "answer": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966, when designers at Letraset and James Mosley, the librarian at St Bride Printing Library in London, took a 1914 Cicero translation and scrambled it to make dummy text for Letraset's Body Type sheets. It has survived not only many decades, but also the leap into electronic typesetting, remaining essentially unchanged."
-    },
-    {
-      "question": "Lorem ipsum dolor sit amet, consectetur adipiscing elit?",
-      "answer": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966, when designers at Letraset and James Mosley, the librarian at St Bride Printing Library in London, took a 1914 Cicero translation and scrambled it to make dummy text for Letraset's Body Type sheets. It has survived not only many decades, but also the leap into electronic typesetting, remaining essentially unchanged."
+      "question": "Placeholder for Question 5 (e.g. Is my information kept confidential?)",
+      "answer": "Placeholder for the answer to question 5. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Replace with a clear, helpful answer of 2–4 sentences that a prospective client would find useful."
     }
   ]
 }

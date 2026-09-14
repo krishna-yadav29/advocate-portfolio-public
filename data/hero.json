@@ -1,10 +1,10 @@
 {
   "name": "Advocate Name Here",
-  "title": "Lorem Ipsum is simply dummy text",
-  "tagline": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966.",
-  "cta_primary_text": "Lorem Ipsum",
+  "title": "Placeholder for Professional Title (e.g. Advocate & Legal Consultant)",
+  "tagline": "Placeholder for a short hero tagline — one or two lines describing the advocate's practice, experience and commitment to clients.",
+  "cta_primary_text": "Book Consultation",
   "cta_primary_link": "#contact",
-  "cta_secondary_text": "Lorem Ipsum",
+  "cta_secondary_text": "View Services",
   "cta_secondary_link": "#services",
   "background_image": "images/hero/court-bg.jpg",
   "profile_image": "images/hero/advocate-photo.jpg"

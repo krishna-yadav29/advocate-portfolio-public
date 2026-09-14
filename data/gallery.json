@@ -1,11 +1,11 @@
 {
-  "heading": "Lorem Ipsum",
+  "heading": "Photo Gallery",
   "images": [
-    { "src": "images/gallery/img-1.jpg", "alt": "Lorem Ipsum Image", "category": "Lorem" },
-    { "src": "images/gallery/img-2.jpg", "alt": "Lorem Ipsum Image", "category": "Lorem" },
-    { "src": "images/gallery/img-3.jpg", "alt": "Lorem Ipsum Image", "category": "Ipsum" },
-    { "src": "images/gallery/img-4.jpg", "alt": "Lorem Ipsum Image", "category": "Ipsum" },
-    { "src": "images/gallery/img-5.jpg", "alt": "Lorem Ipsum Image", "category": "Lorem" },
-    { "src": "images/gallery/img-6.jpg", "alt": "Lorem Ipsum Image", "category": "Ipsum" }
+    { "src": "images/gallery/img-1.jpg", "alt": "Placeholder for gallery image 1 description", "category": "Court" },
+    { "src": "images/gallery/img-2.jpg", "alt": "Placeholder for gallery image 2 description", "category": "Office" },
+    { "src": "images/gallery/img-3.jpg", "alt": "Placeholder for gallery image 3 description", "category": "Events" },
+    { "src": "images/gallery/img-4.jpg", "alt": "Placeholder for gallery image 4 description", "category": "Awards" },
+    { "src": "images/gallery/img-5.jpg", "alt": "Placeholder for gallery image 5 description", "category": "Court" },
+    { "src": "images/gallery/img-6.jpg", "alt": "Placeholder for gallery image 6 description", "category": "Events" }
   ]
 }
