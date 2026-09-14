@@ -1,0 +1,29 @@
+{
+  "heading": "Lorem Ipsum",
+  "achievements": [
+    {
+      "icon": "fas fa-award",
+      "title": "Lorem Ipsum Award",
+      "year": "20XX",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966."
+    },
+    {
+      "icon": "fas fa-star",
+      "title": "Lorem Ipsum Award",
+      "year": "20XX",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966."
+    },
+    {
+      "icon": "fas fa-certificate",
+      "title": "Lorem Ipsum Award",
+      "year": "20XX",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966."
+    },
+    {
+      "icon": "fas fa-medal",
+      "title": "Lorem Ipsum Award",
+      "year": "20XX",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966."
+    }
+  ]
+}

@@ -1,0 +1,465 @@
+backend:
+  name: git-gateway
+  branch: main
+media_folder: images/uploads
+public_folder: /images/uploads
+collections:
+  - name: settings
+    label: Site Settings
+    files:
+      - name: settings
+        label: Site Settings
+        file: data/settings.json
+        fields:
+          - label: Site Title
+            name: site_title
+            widget: string
+          - label: Site Description
+            name: site_description
+            widget: text
+          - label: WhatsApp Number
+            name: whatsapp_number
+            widget: string
+          - label: WhatsApp Message
+            name: whatsapp_message
+            widget: text
+          - label: Social Links
+            name: social
+            widget: object
+            fields:
+              - label: Facebook
+                name: facebook
+                widget: string
+                required: false
+              - label: LinkedIn
+                name: linkedin
+                widget: string
+                required: false
+              - label: Twitter
+                name: twitter
+                widget: string
+                required: false
+              - label: Instagram
+                name: instagram
+                widget: string
+                required: false
+          - label: Disclaimer Text
+            name: disclaimer_text
+            widget: text
+          - label: Enquiry Popup Enabled
+            name: enquiry_popup_enabled
+            widget: boolean
+            default: true
+          - label: Enquiry Popup Delay Seconds
+            name: enquiry_popup_delay_seconds
+            widget: number
+            default: 15
+          - label: Copyright Text
+            name: copyright_text
+            widget: string
+  - name: hero
+    label: Hero Section
+    files:
+      - name: hero
+        label: Hero Section
+        file: data/hero.json
+        fields:
+          - label: Name
+            name: name
+            widget: string
+          - label: Title
+            name: title
+            widget: string
+          - label: Tagline
+            name: tagline
+            widget: text
+          - label: Primary CTA Text
+            name: cta_primary_text
+            widget: string
+          - label: Primary CTA Link
+            name: cta_primary_link
+            widget: string
+          - label: Secondary CTA Text
+            name: cta_secondary_text
+            widget: string
+          - label: Secondary CTA Link
+            name: cta_secondary_link
+            widget: string
+          - label: Background Image
+            name: background_image
+            widget: image
+          - label: Profile Image
+            name: profile_image
+            widget: image
+  - name: about
+    label: About Section
+    files:
+      - name: about
+        label: About Section
+        file: data/about.json
+        fields:
+          - label: Heading
+            name: heading
+            widget: string
+          - label: Description
+            name: description
+            widget: text
+          - label: Profile Image
+            name: profile_image
+            widget: image
+          - label: Education
+            name: education
+            widget: list
+            fields:
+              - label: Degree
+                name: degree
+                widget: string
+              - label: Institution
+                name: institution
+                widget: string
+              - label: Year
+                name: year
+                widget: string
+          - label: Bar Council ID
+            name: bar_council_id
+            widget: string
+          - label: Languages
+            name: languages
+            widget: list
+            field:
+              label: Language
+              name: language
+              widget: string
+          - label: Specializations
+            name: specializations
+            widget: list
+            field:
+              label: Specialization
+              name: specialization
+              widget: string
+  - name: stats
+    label: Stats Counter
+    files:
+      - name: stats
+        label: Stats Counter
+        file: data/stats.json
+        fields:
+          - label: Counters
+            name: counters
+            widget: list
+            fields:
+              - label: Number
+                name: number
+                widget: number
+              - label: Suffix
+                name: suffix
+                widget: string
+              - label: Label
+                name: label
+                widget: string
+              - label: Icon Class
+                name: icon
+                widget: string
+  - name: services
+    label: Practice Areas
+    files:
+      - name: services
+        label: Practice Areas
+        file: data/services.json
+        fields:
+          - label: Heading
+            name: heading
+            widget: string
+          - label: Subtitle
+            name: subtitle
+            widget: string
+          - label: Services
+            name: services
+            widget: list
+            fields:
+              - label: Icon Class
+                name: icon
+                widget: string
+              - label: Title
+                name: title
+                widget: string
+              - label: Description
+                name: description
+                widget: text
+  - name: courts
+    label: Courts of Practice
+    files:
+      - name: courts
+        label: Courts of Practice
+        file: data/courts.json
+        fields:
+          - label: Heading
+            name: heading
+            widget: string
+          - label: Courts
+            name: courts
+            widget: list
+            fields:
+              - label: Court Name
+                name: name
+                widget: string
+              - label: Icon Class
+                name: icon
+                widget: string
+              - label: Location
+                name: location
+                widget: string
+  - name: experience
+    label: Experience Timeline
+    files:
+      - name: experience
+        label: Experience Timeline
+        file: data/experience.json
+        fields:
+          - label: Heading
+            name: heading
+            widget: string
+          - label: Milestones
+            name: milestones
+            widget: list
+            fields:
+              - label: Year
+                name: year
+                widget: string
+              - label: Title
+                name: title
+                widget: string
+              - label: Description
+                name: description
+                widget: text
+  - name: achievements
+    label: Achievements
+    files:
+      - name: achievements
+        label: Achievements
+        file: data/achievements.json
+        fields:
+          - label: Heading
+            name: heading
+            widget: string
+          - label: Achievements
+            name: achievements
+            widget: list
+            fields:
+              - label: Icon Class
+                name: icon
+                widget: string
+              - label: Title
+                name: title
+                widget: string
+              - label: Year
+                name: year
+                widget: string
+              - label: Description
+                name: description
+                widget: text
+  - name: gallery
+    label: Photo Gallery
+    files:
+      - name: gallery
+        label: Photo Gallery
+        file: data/gallery.json
+        fields:
+          - label: Heading
+            name: heading
+            widget: string
+          - label: Images
+            name: images
+            widget: list
+            fields:
+              - label: Image
+                name: src
+                widget: image
+              - label: Alt Text
+                name: alt
+                widget: string
+              - label: Category
+                name: category
+                widget: select
+                options:
+                  - Court
+                  - Events
+                  - Office
+                  - Awards
+                  - Other
+                  - Lorem
+                  - Ipsum
+  - name: testimonials
+    label: Testimonials
+    files:
+      - name: testimonials
+        label: Testimonials
+        file: data/testimonials.json
+        fields:
+          - label: Heading
+            name: heading
+            widget: string
+          - label: Testimonials
+            name: testimonials
+            widget: list
+            fields:
+              - label: Client Name
+                name: name
+                widget: string
+              - label: Role
+                name: role
+                widget: string
+              - label: Review Text
+                name: text
+                widget: text
+              - label: Rating
+                name: rating
+                widget: select
+                options:
+                  - 1
+                  - 2
+                  - 3
+                  - 4
+                  - 5
+                default: 5
+              - label: Client Photo
+                name: image
+                widget: image
+                required: false
+  - name: faq
+    label: FAQ Section
+    files:
+      - name: faq
+        label: FAQ Section
+        file: data/faq.json
+        fields:
+          - label: Heading
+            name: heading
+            widget: string
+          - label: FAQs
+            name: faqs
+            widget: list
+            fields:
+              - label: Question
+                name: question
+                widget: string
+              - label: Answer
+                name: answer
+                widget: text
+  - name: contact
+    label: Contact Details
+    files:
+      - name: contact
+        label: Contact Details
+        file: data/contact.json
+        fields:
+          - label: Heading
+            name: heading
+            widget: string
+          - label: Subtitle
+            name: subtitle
+            widget: string
+          - label: Phone
+            name: phone
+            widget: string
+          - label: Email
+            name: email
+            widget: string
+          - label: Address
+            name: address
+            widget: text
+          - label: Office Hours
+            name: office_hours
+            widget: string
+          - label: Google Maps Embed URL
+            name: map_embed_url
+            widget: string
+  - name: cta
+    label: CTA Banner
+    files:
+      - name: cta
+        label: CTA Banner
+        file: data/cta.json
+        fields:
+          - label: Heading
+            name: heading
+            widget: string
+          - label: Description
+            name: description
+            widget: text
+          - label: Button Text
+            name: button_text
+            widget: string
+          - label: Button Link
+            name: button_link
+            widget: string
+          - label: Phone Text
+            name: phone_text
+            widget: string
+  - name: blog_index
+    label: Blog Index (post list)
+    files:
+      - name: blog_index
+        label: Blog Index (post list)
+        file: data/blog/index.json
+        fields:
+          - label: Post Files
+            name: posts
+            widget: list
+            field:
+              label: File Name
+              name: file
+              widget: string
+        description: After adding or deleting a blog post, update this list so the site knows which post files to load. Each
+          entry is the post's file name, e.g. my-new-article.json
+  - name: blog
+    label: Blog Posts
+    folder: data/blog
+    create: true
+    slug: '{{slug}}'
+    extension: json
+    format: json
+    filter:
+      field: type
+      value: post
+    fields:
+      - label: Type
+        name: type
+        widget: hidden
+        default: post
+      - label: Slug
+        name: slug
+        widget: string
+        hint: URL identifier, e.g. my-new-article (lowercase, hyphens)
+      - label: Title
+        name: title
+        widget: string
+      - label: Publish Date
+        name: date
+        widget: datetime
+      - label: Category
+        name: category
+        widget: select
+        options:
+          - Criminal Law
+          - Property Law
+          - Family Law
+          - Civil Law
+          - Corporate Law
+          - Constitutional Law
+          - General
+      - label: Thumbnail
+        name: thumbnail
+        widget: image
+      - label: Excerpt
+        name: excerpt
+        widget: text
+      - label: Content
+        name: content
+        widget: markdown
+      - label: Author
+        name: author
+        widget: string
+      - label: Read Time
+        name: read_time
+        widget: string

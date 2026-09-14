@@ -1,0 +1,11 @@
+{
+  "heading": "Lorem Ipsum",
+  "images": [
+    { "src": "images/gallery/img-1.jpg", "alt": "Lorem Ipsum Image", "category": "Lorem" },
+    { "src": "images/gallery/img-2.jpg", "alt": "Lorem Ipsum Image", "category": "Lorem" },
+    { "src": "images/gallery/img-3.jpg", "alt": "Lorem Ipsum Image", "category": "Ipsum" },
+    { "src": "images/gallery/img-4.jpg", "alt": "Lorem Ipsum Image", "category": "Ipsum" },
+    { "src": "images/gallery/img-5.jpg", "alt": "Lorem Ipsum Image", "category": "Lorem" },
+    { "src": "images/gallery/img-6.jpg", "alt": "Lorem Ipsum Image", "category": "Ipsum" }
+  ]
+}
