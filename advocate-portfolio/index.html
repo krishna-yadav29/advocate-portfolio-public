@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- ============ META ============ -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  <!-- SEO -->
+  <title>Advocate Portfolio — Trusted Legal Counsel</title>
+  <meta name="description" content="Experienced advocate providing expert legal services — civil, criminal, corporate and family law. Book a consultation today." />
+  <meta name="keywords" content="advocate, lawyer, legal services, law firm, consultation, court, legal advice" />
+  <meta name="author" content="Advocate Portfolio" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://example.com/" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Advocate Portfolio — Trusted Legal Counsel" />
+  <meta property="og:description" content="Experienced advocate providing expert legal services. Book a consultation today." />
+  <meta property="og:url" content="https://example.com/" />
+  <meta property="og:image" content="assets/images/og-cover.jpg" />
+  <meta property="og:site_name" content="Advocate Portfolio" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Advocate Portfolio — Trusted Legal Counsel" />
+  <meta name="twitter:description" content="Experienced advocate providing expert legal services." />
+  <meta name="twitter:image" content="assets/images/og-cover.jpg" />
+
+  <!-- Theme -->
+  <meta name="theme-color" content="#0a0a0a" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg" />
+
+  <!-- Structured data — LocalBusiness / Attorney (JSON-LD).
+       Placeholder values follow the same convention as data/*.json;
+       replace alongside the real content. -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Attorney",
+    "name": "Advocate Name Here",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    "url": "https://example.com/",
+    "image": "https://example.com/images/hero/advocate-photo.jpg",
+    "telephone": "+XX XXXXX XXXXX",
+    "email": "lorem@ipsum.com",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Lorem Ipsum Street",
+      "addressLocality": "Lorem Ipsum City",
+      "addressRegion": "Lorem Ipsum State",
+      "postalCode": "XXXXXX",
+      "addressCountry": "IN"
+    },
+    "priceRange": "$$",
+    "openingHours": "Mo-Sa 10:00-19:00",
+    "sameAs": [
+      "https://facebook.com/loremipsum",
+      "https://linkedin.com/in/loremipsum",
+      "https://twitter.com/loremipsum"
+    ]
+  }
+  </script>
+
+  <!-- ============ FONTS ============ -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,800;1,400&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- ============ CDN LIBRARIES (CSS) ============ -->
+  <!-- AOS — Animate On Scroll -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" />
+  <!-- Font Awesome 6 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+  <!-- GLightbox -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox@3.3.0/dist/css/glightbox.min.css" />
+  <!-- Swiper -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+  <!-- ============ MAIN STYLESHEET ============ -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <!-- Skip to content (keyboard accessibility) -->
+  <a href="#main" class="skip-link">Skip to main content</a>
+
+  <!-- ============ PAGE LOADER ============ -->
+  <div id="loader" class="loader" aria-hidden="true">
+    <div class="loader__ring"></div>
+    <span class="loader__text">Loading&hellip;</span>
+  </div>
+
+  <!-- ============ NAVBAR ============ -->
+  <header id="navbar" class="navbar">
+    <nav class="navbar__inner container" aria-label="Main navigation">
+      <!-- Logo -->
+      <a href="#hero" class="navbar__logo" aria-label="Home — Advocate Portfolio">
+        <i class="fa-solid fa-scale-balanced" aria-hidden="true"></i>
+        <span class="navbar__logo-text"><!-- Injected by JS --></span>
+      </a>
+
+      <!-- Nav Links -->
+      <ul id="nav-menu" class="navbar__menu">
+        <li><a href="#hero" class="navbar__link active">Home</a></li>
+        <li><a href="#about" class="navbar__link">About</a></li>
+        <li><a href="#services" class="navbar__link">Services</a></li>
+        <li><a href="#experience" class="navbar__link">Experience</a></li>
+        <li><a href="#gallery" class="navbar__link">Gallery</a></li>
+        <li><a href="#testimonials" class="navbar__link">Testimonials</a></li>
+        <li><a href="#blog" class="navbar__link">Blog</a></li>
+        <li><a href="#contact" class="navbar__link navbar__link--cta">Contact</a></li>
+      </ul>
+
+      <!-- Hamburger -->
+      <button id="nav-toggle" class="navbar__toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="nav-menu">
+        <span class="navbar__toggle-bar"></span>
+        <span class="navbar__toggle-bar"></span>
+        <span class="navbar__toggle-bar"></span>
+      </button>
+    </nav>
+  </header>
+
+  <!-- ============ MAIN CONTENT ============ -->
+  <main id="main">
+
+    <!-- HERO — parallax full-viewport banner -->
+    <section id="hero" class="hero" aria-label="Hero introduction">
+      <div class="hero__overlay" aria-hidden="true"></div>
+      <div class="hero__content container" data-aos="fade-up">
+        <!-- Injected by JS: badge, headline, subheadline, CTA buttons -->
+      </div>
+      <a href="#stats" class="hero__scroll-hint" aria-label="Scroll down">
+        <i class="fa-solid fa-chevron-down" aria-hidden="true"></i>
+      </a>
+    </section>
+
+    <!-- STATS — animated counters strip -->
+    <section id="stats" class="stats" aria-label="Key statistics" data-aos="fade-up">
+      <div class="stats__grid container">
+        <!-- Injected by JS: counter items -->
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section about" aria-label="About the advocate">
+      <div class="container">
+        <div class="section__header" data-aos="fade-up">
+          <span class="section__eyebrow">Who I Am</span>
+          <h2 class="section__title">About</h2>
+        </div>
+        <div class="about__grid" data-aos="fade-up" data-aos-delay="100">
+          <!-- Injected by JS: photo, bio, highlights, credentials -->
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services" class="section services" aria-label="Practice areas and services">
+      <div class="container">
+        <div class="section__header" data-aos="fade-up">
+          <span class="section__eyebrow">Practice Areas</span>
+          <h2 class="section__title">Services</h2>
+        </div>
+        <div class="services__grid" data-aos="fade-up" data-aos-delay="100">
+          <!-- Injected by JS: service cards -->
+        </div>
+      </div>
+    </section>
+
+    <!-- COURTS -->
+    <section id="courts" class="section courts" aria-label="Courts of practice">
+      <div class="container">
+        <div class="section__header" data-aos="fade-up">
+          <span class="section__eyebrow">Where I Practice</span>
+          <h2 class="section__title">Courts</h2>
+        </div>
+        <div class="courts__list" data-aos="fade-up" data-aos-delay="100">
+          <!-- Injected by JS: court badges -->
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE — timeline -->
+    <section id="experience" class="section experience" aria-label="Professional experience timeline">
+      <div class="container">
+        <div class="section__header" data-aos="fade-up">
+          <span class="section__eyebrow">My Journey</span>
+          <h2 class="section__title">Experience</h2>
+        </div>
+        <div class="timeline" data-aos="fade-up" data-aos-delay="100">
+          <!-- Injected by JS: timeline items -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ACHIEVEMENTS -->
+    <section id="achievements" class="section achievements" aria-label="Achievements and recognitions">
+      <div class="container">
+        <div class="section__header" data-aos="fade-up">
+          <span class="section__eyebrow">Milestones</span>
+          <h2 class="section__title">Achievements</h2>
+        </div>
+        <div class="achievements__grid" data-aos="fade-up" data-aos-delay="100">
+          <!-- Injected by JS: achievement cards -->
+        </div>
+      </div>
+    </section>
+
+    <!-- GALLERY -->
+    <section id="gallery" class="section gallery" aria-label="Photo gallery">
+      <div class="container">
+        <div class="section__header" data-aos="fade-up">
+          <span class="section__eyebrow">Moments</span>
+          <h2 class="section__title">Gallery</h2>
+        </div>
+        <div class="gallery__grid" data-aos="fade-up" data-aos-delay="100">
+          <!-- Injected by JS: gallery items (GLightbox) -->
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS — Swiper carousel -->
+    <section id="testimonials" class="section testimonials" aria-label="Client testimonials">
+      <div class="container">
+        <div class="section__header" data-aos="fade-up">
+          <span class="section__eyebrow">Client Voices</span>
+          <h2 class="section__title">Testimonials</h2>
+        </div>
+        <div class="swiper testimonials__swiper" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper-wrapper">
+            <!-- Injected by JS: swiper slides -->
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ — accordion -->
+    <section id="faq" class="section faq" aria-label="Frequently asked questions">
+      <div class="container container--narrow">
+        <div class="section__header" data-aos="fade-up">
+          <span class="section__eyebrow">Need Help?</span>
+          <h2 class="section__title">FAQ</h2>
+        </div>
+        <div class="faq__list" data-aos="fade-up" data-aos-delay="100">
+          <!-- Injected by JS: accordion items -->
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA BANNER -->
+    <section id="cta" class="cta" aria-label="Call to action" data-aos="zoom-in">
+      <div class="cta__inner container">
+        <!-- Injected by JS: heading, text, button -->
+      </div>
+    </section>
+
+    <!-- BLOG -->
+    <section id="blog" class="section blog" aria-label="Legal insights and articles">
+      <div class="container">
+        <div class="section__header" data-aos="fade-up">
+          <span class="section__eyebrow">Insights</span>
+          <h2 class="section__title">Blog</h2>
+        </div>
+        <div class="blog__grid" data-aos="fade-up" data-aos-delay="100">
+          <!-- Injected by JS: blog cards -->
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section contact" aria-label="Contact and enquiry">
+      <div class="container">
+        <div class="section__header" data-aos="fade-up">
+          <span class="section__eyebrow">Get In Touch</span>
+          <h2 class="section__title">Contact</h2>
+        </div>
+        <div class="contact__grid">
+          <!-- Contact Info (populated by JS) -->
+          <div class="contact__info" data-aos="fade-right">
+            <!-- Injected by JS: address, phone, email, hours, map, socials -->
+          </div>
+
+          <!-- Enquiry Form (Netlify) -->
+          <div class="contact__form-wrap glass-card" data-aos="fade-left">
+            <form
+              name="enquiry"
+              method="POST"
+              data-netlify="true"
+              netlify-honeypot="bot-field"
+              class="contact__form"
+              aria-label="Enquiry form"
+            >
+              <input type="hidden" name="form-name" value="enquiry" />
+              <p class="visually-hidden">
+                <label>Don't fill this out if you're human: <input name="bot-field" /></label>
+              </p>
+              <div class="form__group">
+                <label for="contact-name" class="form__label">Full Name</label>
+                <input type="text" id="contact-name" name="name" class="form__input" placeholder="Your name" required autocomplete="name" />
+              </div>
+              <div class="form__group">
+                <label for="contact-email" class="form__label">Email</label>
+                <input type="email" id="contact-email" name="email" class="form__input" placeholder="you@example.com" required autocomplete="email" />
+              </div>
+              <div class="form__group">
+                <label for="contact-phone" class="form__label">Phone</label>
+                <input type="tel" id="contact-phone" name="phone" class="form__input" placeholder="+91 XXXXX XXXXX" autocomplete="tel" />
+              </div>
+              <div class="form__group">
+                <label for="contact-case-type" class="form__label">Case Type</label>
+                <select id="contact-case-type" name="case_type" class="form__input form__select">
+                  <!-- Options injected by JS -->
+                </select>
+              </div>
+              <div class="form__group">
+                <label for="contact-message" class="form__label">Message</label>
+                <textarea id="contact-message" name="message" class="form__input form__textarea" rows="5" placeholder="Briefly describe your matter..." required></textarea>
+              </div>
+              <button type="submit" class="btn btn--gold btn--block">
+                <i class="fa-solid fa-paper-plane" aria-hidden="true"></i> Send Enquiry
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer id="footer" class="footer" aria-label="Footer">
+    <div class="footer__grid container">
+      <!-- Injected by JS: brand column, quick links, practice areas, contact mini -->
+    </div>
+    <div class="footer__bottom">
+      <div class="container footer__bottom-inner">
+        <!-- Injected by JS: copyright, disclaimer link -->
+      </div>
+    </div>
+  </footer>
+
+  <!-- ============ FLOATING WHATSAPP BUTTON ============ -->
+  <a
+    id="whatsapp-btn"
+    class="whatsapp-btn"
+    href="#"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Chat on WhatsApp"
+  >
+    <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
+  </a>
+
+  <!-- ============ BACK TO TOP ============ -->
+  <button id="back-to-top" class="back-to-top" aria-label="Back to top">
+    <i class="fa-solid fa-arrow-up" aria-hidden="true"></i>
+  </button>
+
+  <!-- ============ ENQUIRY POPUP MODAL ============ -->
+  <div id="enquiry-modal" class="modal" role="dialog" aria-modal="true" aria-labelledby="enquiry-modal-title" aria-hidden="true">
+    <div class="modal__overlay" data-close-modal aria-hidden="true"></div>
+    <div class="modal__card glass-card">
+      <button class="modal__close" data-close-modal aria-label="Close enquiry popup">
+        <i class="fa-solid fa-xmark" aria-hidden="true"></i>
+      </button>
+      <h3 id="enquiry-modal-title" class="modal__title">Quick Enquiry</h3>
+      <p class="modal__subtitle"><!-- Injected by JS --></p>
+      <form
+        name="quick-enquiry"
+        method="POST"
+        data-netlify="true"
+        netlify-honeypot="bot-field"
+        class="modal__form"
+        aria-label="Quick enquiry form"
+      >
+        <input type="hidden" name="form-name" value="quick-enquiry" />
+        <p class="visually-hidden">
+          <label>Don't fill this out if you're human: <input name="bot-field" /></label>
+        </p>
+        <div class="form__group">
+          <label for="enquiry-name" class="form__label visually-hidden">Full Name</label>
+          <input type="text" id="enquiry-name" name="name" class="form__input" placeholder="Full Name" required autocomplete="name" />
+        </div>
+        <div class="form__group">
+          <label for="enquiry-phone" class="form__label visually-hidden">Phone</label>
+          <input type="tel" id="enquiry-phone" name="phone" class="form__input" placeholder="Phone Number" required autocomplete="tel" />
+        </div>
+        <div class="form__group">
+          <label for="enquiry-case-type" class="form__label visually-hidden">Case Type</label>
+          <select id="enquiry-case-type" name="case_type" class="form__input form__select">
+            <option value="" disabled selected>Select Case Type</option>
+            <!-- More options injected by JS -->
+          </select>
+        </div>
+        <div class="form__group">
+          <label for="enquiry-message" class="form__label visually-hidden">Message</label>
+          <textarea id="enquiry-message" name="message" class="form__input form__textarea" rows="3" placeholder="How can I help you?"></textarea>
+        </div>
+        <button type="submit" class="btn btn--gold btn--block">Submit Enquiry</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- ============ DISCLAIMER POPUP MODAL ============ -->
+  <div id="disclaimer-modal" class="modal" role="dialog" aria-modal="true" aria-labelledby="disclaimer-modal-title" aria-hidden="true">
+    <div class="modal__overlay" aria-hidden="true"></div>
+    <div class="modal__card glass-card modal__card--disclaimer">
+      <h3 id="disclaimer-modal-title" class="modal__title">
+        <i class="fa-solid fa-scale-balanced" aria-hidden="true"></i> Disclaimer
+      </h3>
+      <div class="modal__body disclaimer__text">
+        <!-- Injected by JS: Bar Council of India disclaimer text -->
+      </div>
+      <div class="modal__actions">
+        <button id="disclaimer-agree" class="btn btn--gold">I Understand</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============ CDN LIBRARIES (JS) ============ -->
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/glightbox@3.3.0/dist/js/glightbox.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- ============ NETLIFY IDENTITY (Decap CMS admin login) ============ -->
+  <script defer src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  <script defer src="js/identity.js"></script>
+
+  <!-- ============ APP SCRIPTS ============ -->
+  <script src="js/app.js"></script>
+  <script src="js/popup.js"></script>
+  <script src="js/blog.js"></script>
+
+  <!-- ============ AOS INIT ============ -->
+  <script>
+    AOS.init({
+      duration: 800,
+      easing: 'ease-out-cubic',
+      once: true,
+      offset: 80,
+    });
+  </script>
+</body>
+</html>

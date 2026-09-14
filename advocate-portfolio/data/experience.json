@@ -1,0 +1,30 @@
+{
+  "heading": "Lorem Ipsum",
+  "milestones": [
+    {
+      "year": "20XX",
+      "title": "Lorem Ipsum Milestone",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966."
+    },
+    {
+      "year": "20XX",
+      "title": "Lorem Ipsum Milestone",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966."
+    },
+    {
+      "year": "20XX",
+      "title": "Lorem Ipsum Milestone",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966."
+    },
+    {
+      "year": "20XX",
+      "title": "Lorem Ipsum Milestone",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966."
+    },
+    {
+      "year": "20XX",
+      "title": "Lorem Ipsum Milestone",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966."
+    }
+  ]
+}

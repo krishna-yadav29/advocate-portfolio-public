@@ -1,0 +1,8 @@
+{
+  "heading": "Lorem Ipsum",
+  "courts": [
+    { "name": "Lorem Ipsum Court", "icon": "fas fa-landmark", "location": "Lorem Ipsum City" },
+    { "name": "Lorem Ipsum Court", "icon": "fas fa-university", "location": "Lorem Ipsum City" },
+    { "name": "Lorem Ipsum Court", "icon": "fas fa-balance-scale", "location": "Lorem Ipsum City" }
+  ]
+}

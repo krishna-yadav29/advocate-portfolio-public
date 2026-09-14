@@ -1,0 +1,12 @@
+{
+  "type": "post",
+  "slug": "lorem-ipsum-blog-post-two",
+  "title": "Lorem Ipsum has been the Industry Standard Dummy Text",
+  "date": "20XX-XX-XX",
+  "category": "Lorem Ipsum",
+  "thumbnail": "images/blog/post-2.jpg",
+  "excerpt": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966...",
+  "content": "<h2>Lorem Ipsum</h2><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966, when designers at Letraset and James Mosley, the librarian at St Bride Printing Library in London, took a 1914 Cicero translation and scrambled it to make dummy text for Letraset's Body Type sheets.</p><h2>Lorem Ipsum Dolor</h2><p>It has survived not only many decades, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised thanks to these sheets and more recently with desktop publishing software like Aldus PageMaker and Microsoft Word including versions of Lorem Ipsum.</p>",
+  "author": "Advocate Name Here",
+  "read_time": "X min"
+}

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- SEO — updated dynamically from post JSON by blog.js -->
+  <title>Article | Advocate Portfolio Blog</title>
+  <meta name="description" content="Legal insights and articles." />
+  <meta name="robots" content="index, follow" />
+
+  <!-- Open Graph — updated dynamically -->
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="Article | Advocate Portfolio Blog" />
+  <meta property="og:description" content="Legal insights and articles." />
+  <meta property="og:image" content="assets/images/og-cover.jpg" />
+  <meta property="og:url" content="" />
+
+  <!-- Twitter Card — updated dynamically -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Article | Advocate Portfolio Blog" />
+  <meta name="twitter:description" content="Legal insights and articles." />
+  <meta name="twitter:image" content="assets/images/og-cover.jpg" />
+
+  <meta name="theme-color" content="#0a0a0a" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,800;1,400&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- CDN CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+
+  <!-- Main stylesheet -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body data-page="blog-post">
+  <!-- Skip to content (keyboard accessibility) -->
+  <a href="#main" class="skip-link">Skip to main content</a>
+
+  <!-- ============ NAVBAR (same as index) ============ -->
+  <header id="navbar" class="navbar">
+    <nav class="navbar__inner container" aria-label="Main navigation">
+      <a href="index.html" class="navbar__logo" aria-label="Home — Advocate Portfolio">
+        <i class="fa-solid fa-scale-balanced" aria-hidden="true"></i>
+        <span class="navbar__logo-text"><!-- Injected by JS --></span>
+      </a>
+      <ul id="nav-menu" class="navbar__menu">
+        <li><a href="index.html" class="navbar__link">Home</a></li>
+        <li><a href="index.html#about" class="navbar__link">About</a></li>
+        <li><a href="index.html#services" class="navbar__link">Services</a></li>
+        <li><a href="index.html#experience" class="navbar__link">Experience</a></li>
+        <li><a href="index.html#gallery" class="navbar__link">Gallery</a></li>
+        <li><a href="index.html#testimonials" class="navbar__link">Testimonials</a></li>
+        <li><a href="blog.html" class="navbar__link active">Blog</a></li>
+        <li><a href="index.html#contact" class="navbar__link navbar__link--cta">Contact</a></li>
+      </ul>
+      <button id="nav-toggle" class="navbar__toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="nav-menu">
+        <span class="navbar__toggle-bar"></span>
+        <span class="navbar__toggle-bar"></span>
+        <span class="navbar__toggle-bar"></span>
+      </button>
+    </nav>
+  </header>
+
+  <!-- ============ MAIN ============ -->
+  <main id="main">
+    <article class="section post" aria-label="Blog article">
+      <div class="container container--narrow">
+        <!-- Single post (injected by JS from ?slug=...) -->
+        <div id="blog-post-container">
+          <!-- Injected by JS: header, thumbnail, content, share buttons — or 404 -->
+        </div>
+      </div>
+    </article>
+
+    <!-- Related posts -->
+    <section class="section related" aria-label="Related articles">
+      <div class="container">
+        <div id="related-posts">
+          <!-- Injected by JS -->
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER (same as index) ============ -->
+  <footer id="footer" class="footer" aria-label="Footer">
+    <div class="footer__grid container">
+      <!-- Injected by JS -->
+    </div>
+    <div class="footer__bottom">
+      <div class="container footer__bottom-inner">
+        <!-- Injected by JS -->
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating WhatsApp -->
+  <a id="whatsapp-btn" class="whatsapp-btn" href="#" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp">
+    <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
+  </a>
+
+  <!-- Back to top -->
+  <button id="back-to-top" class="back-to-top" aria-label="Back to top">
+    <i class="fa-solid fa-arrow-up" aria-hidden="true"></i>
+  </button>
+
+  <!-- ============ SCRIPTS ============ -->
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script src="js/blog.js"></script>
+  <script>
+    AOS.init({ duration: 800, easing: 'ease-out-cubic', once: true, offset: 80 });
+  </script>
+</body>
+</html>
