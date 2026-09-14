@@ -1,29 +1,30 @@
 {
-  "heading": "Lorem Ipsum",
-  "achievements": [
+  "heading": "Professional Journey",
+  "milestones": [
     {
-      "icon": "fas fa-award",
-      "title": "Lorem Ipsum Award",
       "year": "20XX",
-      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966."
+      "title": "Placeholder for Milestone 1 (e.g. Enrolled with Bar Council)",
+      "description": "Placeholder description for this career milestone. Replace with 1–2 sentences about what happened at this stage of the professional journey."
     },
     {
-      "icon": "fas fa-star",
-      "title": "Lorem Ipsum Award",
       "year": "20XX",
-      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966."
+      "title": "Placeholder for Milestone 2 (e.g. Started Independent Practice)",
+      "description": "Placeholder description for this career milestone. Replace with 1–2 sentences about what happened at this stage of the professional journey."
     },
     {
-      "icon": "fas fa-certificate",
-      "title": "Lorem Ipsum Award",
       "year": "20XX",
-      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966."
+      "title": "Placeholder for Milestone 3 (e.g. Empanelled as Legal Advisor)",
+      "description": "Placeholder description for this career milestone. Replace with 1–2 sentences about what happened at this stage of the professional journey."
     },
     {
-      "icon": "fas fa-medal",
-      "title": "Lorem Ipsum Award",
       "year": "20XX",
-      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966."
+      "title": "Placeholder for Milestone 4 (e.g. Argued Landmark Case)",
+      "description": "Placeholder description for this career milestone. Replace with 1–2 sentences about what happened at this stage of the professional journey."
+    },
+    {
+      "year": "20XX",
+      "title": "Placeholder for Milestone 5 (e.g. Established Own Chambers)",
+      "description": "Placeholder description for this career milestone. Replace with 1–2 sentences about what happened at this stage of the professional journey."
     }
   ]
 }
