@@ -1,29 +1,29 @@
 {
-  "heading": "Lorem Ipsum",
+  "heading": "Achievements & Recognitions",
   "achievements": [
     {
       "icon": "fas fa-award",
-      "title": "Lorem Ipsum Award",
+      "title": "Placeholder for Achievement 1 (e.g. Legal Excellence Award)",
       "year": "20XX",
-      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966."
+      "description": "Placeholder description for this achievement. Replace with 1–2 sentences about the award, recognition or honour received."
     },
     {
       "icon": "fas fa-star",
-      "title": "Lorem Ipsum Award",
+      "title": "Placeholder for Achievement 2 (e.g. Bar Association Honour)",
       "year": "20XX",
-      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966."
+      "description": "Placeholder description for this achievement. Replace with 1–2 sentences about the award, recognition or honour received."
     },
     {
       "icon": "fas fa-certificate",
-      "title": "Lorem Ipsum Award",
+      "title": "Placeholder for Achievement 3 (e.g. Certified Mediator)",
       "year": "20XX",
-      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966."
+      "description": "Placeholder description for this achievement. Replace with 1–2 sentences about the award, recognition or honour received."
     },
     {
       "icon": "fas fa-medal",
-      "title": "Lorem Ipsum Award",
+      "title": "Placeholder for Achievement 4 (e.g. Distinguished Service Medal)",
       "year": "20XX",
-      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966."
+      "description": "Placeholder description for this achievement. Replace with 1–2 sentences about the award, recognition or honour received."
     }
   ]
 }
